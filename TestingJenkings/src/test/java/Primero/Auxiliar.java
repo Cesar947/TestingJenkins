@@ -15,4 +15,14 @@ public class Auxiliar {
 		
 	}
 	
+	@Test
+	public void HtmlUnitTest2() {
+		
+		HtmlUnitDriver Htdriver = new HtmlUnitDriver();
+		Htdriver. get("https://google.com/");
+		String pageTitle = Htdriver.getTitle();
+		System.out.println(pageTitle);
+		
+	}
+	
 }
